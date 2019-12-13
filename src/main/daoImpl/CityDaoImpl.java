@@ -62,7 +62,7 @@ public class CityDaoImpl implements CityDao {
 
 	}
 
-	public boolean updatCity(Citys citys) { 
+	public boolean updateCity(Citys citys) { 
 		sessionFactory.getCurrentSession().update(citys); 
 		return true;
 	}
